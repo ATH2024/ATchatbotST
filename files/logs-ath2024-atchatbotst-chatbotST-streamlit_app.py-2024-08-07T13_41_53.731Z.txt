@@ -1,0 +1,259 @@
+
+[     UTC     ] Logs for htservices-dd-atchatbotst.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[13:34:58] 🖥 Provisioning machine...
+[13:34:58] 🎛 Preparing system...
+[13:34:58] ⛓ Spinning up manager process...
+[13:34:55] 🚀 Starting up repository: 'atchatbotst', branch: 'chatbotST', main module: 'streamlit_app.py'
+[13:34:55] 🐙 Cloning repository...
+[13:34:55] 🐙 Cloning into '/mount/src/atchatbotst'...
+
+[13:34:55] 🐙 Cloned repository!
+[13:34:55] 🐙 Pulling code changes from Github...
+[13:34:56] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Resolved 138 packages in 1.76s
+Downloaded [2024-08-07 13:35:01.292491] 137 packages[2024-08-07 13:35:01.292808]  in 2.99s[2024-08-07 13:35:01.293135] 
+Installed 138 packages in 200ms
+ + aiohappyeyeballs==2.3.4
+ + aiohttp==3.10.1
+ + aiosignal==1.3.1
+ + altair==5.3.0
+ + annotated-types==0.7.0
+ + anyio==4.4.0
+ + asgiref==3.8.1
+ + attrs==24.1.0
+ + backoff==2.2.1
+ + bcrypt==4.2.0
+ + blinker==1.8.2
+ + build==1.2.1
+ + cachetools==5.4.0
+ + certifi==2024.7.4
+ + charset-normalizer==3.3.2
+ + chroma-hnswlib==0.7.6
+ + chromadb==0.5.5
+ + click==8.1.7
+ + colorama==0.4.6
+ + coloredlogs==15.0.1
+ + dataclasses-json==0.6.7
+ + deprecated==1.2.14
+ + distro==1.9.0
+ + docx2txt==0.8
+ + fastapi==0.112.0
+ + filelock==3.15.4
+ + flatbuffers==24.3.25
+ + frozenlist==1.4.1
+ + fsspec==2024.6.1
+ + gitdb==4.0.11
+ + gitpython==3.1.43
+ + google-auth==2.32.0
+ + googleapis-common-protos==1.63.2
+ + greenlet==3.0.3
+ + grpcio==1.65.4
+ + h11==0.14.0
+ + httpcore==1.0.5
+ + httptools==0.6.1
+ + httpx==0.27.0
+ + huggingface-hub==0.24.5
+ + humanfriendly==10.0
+ + idna==3.7
+ + importlib-metadata==8.0.0
+ + importlib-resources==6.4.0
+ + jinja2==3.1.4
+ + jsonpatch==1.33
+ + jsonpointer==3.0.0
+ + jsonschema==4.23.0
+ + jsonschema-specifications==2023.12.1
+ + kubernetes==30.1.0
+ + langchain==0.2.12
+ + langchain-community==0.2.11
+ + langchain-core==0.2.28
+ + langchain-openai==0.1.20
+ + langchain-text-splitters==0.2.2
+ + langsmith==0.1.96
+ + markdown-it-py==3.0.0
+ + markupsafe==2.1.5
+ + marshmallow==3.21.3
+ + mdurl==0.1.2
+ + mmh3==4.1.0
+ + monotonic==1.6
+ + mpmath==1.3.0
+ + multidict==6.0.5
+ + mypy-extensions==1.0.0
+ + numpy==1.26.4
+ + oauthlib==3.2.2
+ + onnxruntime==1.18.1
+ + openai==1.39.0
+ + opentelemetry-api==1.26.0
+ + opentelemetry-exporter-otlp-proto-common==1.26.0
+ + opentelemetry-exporter-otlp-proto-grpc==1.26.0
+ + opentelemetry-instrumentation==0.47b0
+ + opentelemetry-instrumentation-asgi==0.47b0
+ + opentelemetry-instrumentation-fastapi==0.47b0
+ + opentelemetry-proto==1.26.0
+ + opentelemetry-sdk==1.26.0
+ + opentelemetry-semantic-conventions==0.47b0
+ + opentelemetry-util-http==0.47b0
+ + orjson==3.10.6
+ + overrides==7.7.0
+ + packaging==24.1
+ + pandas==2.2.2
+ + pillow==10.4.0
+ + posthog==3.5.0
+ + protobuf==4.25.4
+ + pyarrow==17.0.0
+ + pyasn1==0.6.0
+ + pyasn1-modules==0.4.0
+ + pydantic==2.8.2
+ + pydantic-core==2.20.1
+ + pydeck==0.9.1
+ + pygments==2.18.0
+ + pypdf==4.3.1
+ + pypika==0.48.9
+ + pyproject-hooks==1.1.0
+ + pyreadline3==3.4.1
+ + python-dateutil==2.9.0.post0
+ + python-dotenv==1.0.1
+ + pytz==2024.1
+ + pyyaml==6.0.1
+ + referencing==0.35.1
+ + regex==2024.7.24
+ + requests==2.32.3
+ + requests-oauthlib==2.0.0
+ + rich==13.7.1
+ + rpds-py==0.19.1
+ + rsa==4.9
+ - setuptools==70.1.0
+ + setuptools==72.1.0
+ + shellingham==1.5.4
+ + six==1.16.0
+ + smmap==5.0.1
+ + sniffio==1.3.1
+ + sqlalchemy==2.0.31
+ + starlette==0.37.2
+ + streamlit==1.37.0
+ + sympy==1.13.1
+ + tenacity==8.5.0
+ + tiktoken==0.7.0
+ + tokenizers==0.19.1
+ + toml==0.10.2
+ + toolz==0.12.1
+ + tornado==6.4.1
+ + tqdm==4.66.5
+ + typer==0.12.3
+ + typing-extensions==4.12.2
+ + typing-inspect==0.9.0
+ + tzdata==2024.1
+ + urllib3==2.2.2
+ + uvicorn==0.30.5
+ + uvloop==0.19.0
+ + watchdog==4.0.1
+ + watchfiles==0.22.0
+ + websocket-client==1.8.0
+ + websockets==12.0
+ + wrapt==1.16.0
+ + yarl==1.9.4
+ + zipp==3.19.2
+Checking if Streamlit is installed
+Found Streamlit version 1.37.0 in the environment
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[13:35:03] 🐍 Python dependencies were installed from /mount/src/atchatbotst/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+[13:35:04] 📦 Processed dependencies!
+
+
+
+Loading ./spice.pdf
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/scriptru  
+  nner/exec_code.py:75 in exec_func_with_error_handling                         
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:574 in code_to_exec                                     
+                                                                                
+  /mount/src/atchatbotst/streamlit_app.py:118 in <module>                       
+                                                                                
+    115 │   │   │   │   st.write(f'Embedding cost: ${embedding_cost:.4f}')      
+    116 │   │   │   │                                                           
+    117 │   │   │   │   # creating the embeddings and returning the Chroma vec  
+  ❱ 118 │   │   │   │   vector_store = create_embeddings(chunks)                
+    119 │   │   │   │                                                           
+    120 │   │   │   │   # saving the vector store in the streamlit session sta  
+    121 │   │   │   │   st.session_state.vs = vector_store                      
+                                                                                
+  /mount/src/atchatbotst/streamlit_app.py:41 in create_embeddings               
+                                                                                
+     38 # create embeddings using OpenAIEmbeddings() and save them in a Chroma  
+     39 def create_embeddings(chunks):                                          
+     40 │   embeddings = OpenAIEmbeddings(model='text-embedding-3-small', dime  
+  ❱  41 │   vector_store = Chroma.from_documents(chunks, embeddings)            
+     42 │   return vector_store                                                 
+     43                                                                         
+     44                                                                         
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/langchain_community/vector  
+  stores/chroma.py:878 in from_documents                                        
+                                                                                
+    875 │   │   """                                                             
+    876 │   │   texts = [doc.page_content for doc in documents]                 
+    877 │   │   metadatas = [doc.metadata for doc in documents]                 
+  ❱ 878 │   │   return cls.from_texts(                                          
+    879 │   │   │   texts=texts,                                                
+    880 │   │   │   embedding=embedding,                                        
+    881 │   │   │   metadatas=metadatas,                                        
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/langchain_community/vector  
+  stores/chroma.py:814 in from_texts                                            
+                                                                                
+    811 │   │   Returns:                                                        
+    812 │   │   │   Chroma: Chroma vectorstore.                                 
+    813 │   │   """                                                             
+  ❱ 814 │   │   chroma_collection = cls(                                        
+    815 │   │   │   collection_name=collection_name,                            
+    816 │   │   │   embedding_function=embedding,                               
+    817 │   │   │   persist_directory=persist_directory,                        
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/langchain_core/_api/deprec  
+  ation.py:203 in warn_if_direct_instance                                       
+                                                                                
+    200 │   │   │   │   │   if not warned and type(self) is obj and not is_cal  
+    201 │   │   │   │   │   │   warned = True                                   
+    202 │   │   │   │   │   │   emit_warning()                                  
+  ❱ 203 │   │   │   │   │   return wrapped(self, *args, **kwargs)               
+    204 │   │   │   │                                                           
+    205 │   │   │   │   obj.__init__ = functools.wraps(obj.__init__)(  # type:  
+    206 │   │   │   │   │   warn_if_direct_instance                             
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/langchain_community/vector  
+  stores/chroma.py:83 in __init__                                               
+                                                                                
+     80 │   ) -> None:                                                          
+     81 │   │   """Initialize with a Chroma client."""                          
+     82 │   │   try:                                                            
+  ❱  83 │   │   │   import chromadb                                             
+     84 │   │   │   import chromadb.config                                      
+     85 │   │   except ImportError:                                             
+     86 │   │   │   raise ImportError(                                          
+                                                                                
+  /home/adminuser/venv/lib/python3.11/site-packages/chromadb/__init__.py:86 in  
+  <module>                                                                      
+                                                                                
+     83 │   │   │   __import__("pysqlite3")                                     
+     84 │   │   │   sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")       
+     85 │   │   else:                                                           
+  ❱  86 │   │   │   raise RuntimeError(                                         
+     87 │   │   │   │   "\033[91mYour system has an unsupported version of sql  
+     88 │   │   │   │   │   requires sqlite3 >= 3.35.0.\033[0m\n"               
+     89 │   │   │   │   "\033[94mPlease visit \                                 
+────────────────────────────────────────────────────────────────────────────────
+RuntimeError: [91mYour system has an unsupported version of sqlite3. Chroma    
+requires sqlite3 >= 3.35.0.[0m
+[94mPlease visit                     
+https://docs.trychroma.com/troubleshooting#sqlite to learn how                  
+to upgrade.[0m
